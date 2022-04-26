@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://mdy-pokedex.herokuapp.com/api/v1/pokemon/",
+					"raw": "https://mdy-pokedex.herokuapp.com/api/v1/pokemon/?page=2",
 					"protocol": "https",
 					"host": [
 						"mdy-pokedex",
@@ -23,6 +23,12 @@
 						"v1",
 						"pokemon",
 						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
 					]
 				}
 			},
