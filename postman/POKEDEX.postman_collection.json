@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "9a533c3d-909d-49bd-acb0-54cc2f544a5a",
+		"name": "POKEDEX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Poke - List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mdy-pokedex.herokuapp.com/api/v1/pokemon/",
+					"protocol": "https",
+					"host": [
+						"mdy-pokedex",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"pokemon",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Poke - Detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mdy-pokedex.herokuapp.com/api/v1/pokemon/1",
+					"protocol": "https",
+					"host": [
+						"mdy-pokedex",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"pokemon",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
